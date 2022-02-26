@@ -1,4 +1,4 @@
-# Closed-loop Region of Interest Enabling High Spatial and Temporal Resolutions in Object Detection and Tracking via Wireless Camera
+# The Acceptance of a Computer Vision Facilitated Protocol to Measure Adherence to Face Masks
 
 #### Journal Paper in ???, Volume ???, 202?: LINK ####
 
