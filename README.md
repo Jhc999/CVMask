@@ -9,8 +9,8 @@ This repository provides the code and data used in the paper.
 2. FLIR Chameleon Camera
 3. FLIR Spinnaker SDK
 4. YoloV4-tiny model for person tracking
-5. YoloV4 model for mask detection (best)
-6. Tensorflow model for mask detection (outdated) 
+5. YoloV4 model for mask detection *(best)
+6. Tensorflow model for mask detection *(outdated) 
 
 *Results from the paper are obtained with Nvidia Jetson, FLIR Chameleon Camera, and YoloV4 model for mask detection. 
 *For convenience, code can be tested on a PC with a compatible camera/webcam.
@@ -28,7 +28,6 @@ This repository provides the code and data used in the paper.
 
 ## Person Tracker / Mask Detector 
 
-* Text
 * ```Main.py```             Main code to deploy person tracker / mask detector
 * ```./tool```              Darknet helpers
 * ```./utils```             YoloV4 helpers
