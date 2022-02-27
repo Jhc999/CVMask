@@ -30,6 +30,7 @@ This repository provides the code and data used in the paper.
 
 * ```Main.py```             Main code to deploy person tracker / mask detector
 * ```./tool```              Darknet helpers
+* ```./load_model```        Load network models
 * ```./utils```             YoloV4 helpers
 * ```utils2.py```           Mask detector configuration file
 * ```Imgs```                Image icons for feedback
