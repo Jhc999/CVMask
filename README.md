@@ -32,6 +32,7 @@ This repository provides the code and data used in the paper.
 * ```./tool```              Darknet helpers
 * ```./utils```             YoloV4 helpers
 * ```utils2.py```           Mask detector configuration file
+* ```Imgs```                Image icons for feedback
 
 ## Training Mask Detector
 
