@@ -4,18 +4,16 @@
 
 This repository provides the code and data used in the paper.
 
-##
-
-*All code is deployed on the Nvidia Jetson using the FLIR Chameleon Camera. 
-*Code can be tested on a PC with a compatible FLIR camera or webcam.
-
 ## Setup
 1. Nvidia Jetson Xavier NX
 2. FLIR Chameleon Camera
 3. FLIR Spinnaker SDK
 4. YoloV4-tiny model for person tracking
-5. YoloV4 model for mask detection (accurate)
-6. Tensorflow model for mask detection (fast)
+5. YoloV4 model for mask detection (best)
+6. Tensorflow model for mask detection (outdated) 
+
+*Results from the paper are obtained with Nvidia Jetson, FLIR Chameleon Camera, and YoloV4 model for mask detection. 
+*For convenience, code can be tested on a PC with a compatible camera/webcam.
 
 ## Dependencies
 1. Python-3.6
@@ -28,7 +26,20 @@ This repository provides the code and data used in the paper.
 9. Darknet-0.3 
 10. Tensorflow-2.3.0 (if using Tensorflow model for mask detection)
 
-## Header
+## Person Tracker / Mask Detector 
 
-TrackYoloDemo2
 * Text
+* ```Main.py```             Main code to deploy person tracker / mask detector
+* ```./tool```              Darknet helpers
+* ```./utils```             YoloV4 helpers
+* ```utils2.py```           Mask detector configuration file
+
+## Training Mask Detector
+
+* YoloV4 detection model is trained for mask detection, training code available upon request
+
+## Trained Models 
+* ```./cfg```               Yolov4-tiny config files
+* ```yolo4-tiny.weights```  Yolov4-tiny weights
+* ```./models```            Tensorflow models for mask detection  
+* YoloV4 mask detection model available upon request
