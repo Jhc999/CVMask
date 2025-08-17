@@ -1,6 +1,6 @@
 # The Acceptance of a Computer Vision Facilitated Protocol to Measure Adherence to Face Masks
 
-#### Journal Paper in ???, Volume ???, ???: LINK ####
+#### Journal Paper in BMJ Open
 
 This repository provides the code and data used in the paper.
 
